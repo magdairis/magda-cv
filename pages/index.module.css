@@ -1,0 +1,23 @@
+.root {
+  padding: 1rem;
+  max-width: 56rem;
+  margin: 0 auto;
+}
+
+.statement {
+  margin-top: 1rem;
+}
+
+.work {
+  margin: 3rem 0rem;
+}
+
+.work > div:not(:first-of-type) {
+  margin-top: 4rem;
+}
+
+@media (min-width: 640px) {
+  .statement {
+    margin-top: 2rem;
+  }
+}

@@ -1,30 +1,27 @@
----
-title: Magda Iris CV
----
+import css from "./index.module.css"
+import Header from "../components/Header"
+import Address from "../components/Address"
 
-<section id="statement">
+<div className={css.root}>
+<Header />
+<Address />
+<section id="statement" className={css.statement}>
 
 I use digital tools to build real relationships and experiences. Community is at the heart of everything I do.
 
 </section>
-
-<section id="work">
+<section id="work" className={css.work}>
 
 # Work
 
-<div class="current">
+<div id="current">
 
 ### Marketing Coordinator
 
-<dl>
-<dt>
-
 #### [Royal Birmingham Society of Artists](http://rbsa.org.uk/)
 
-<dl>
-<dt><time>Aug 2019 - Present</time></dt>
-<dt>Birmingham</dt>
-<dd>
+<time>Aug 2019 - Present</time>
+<address>Birmingham</address>
 
 - Create actionable Marketing Strategy that responds to RBSA goals
 - Promote exhibitions and activities online and in print
@@ -37,29 +34,15 @@ I use digital tools to build real relationships and experiences. Community is at
 - Engage with external partners to maximise impact in the arts/culture/heritage sector
 - Work with Exhibitions Team to create online entry forms and application packs
 
-**Achievements**
-
-- Increased email subscribers by 31% since starting
-- Completed Audience Champions training workshops for data/survey collection
-- Coordinated RBSA's first online exhibition which reached over 10,000 views
-
-</dd> 
-</dl>
 </div>
-
-<div class="bearjam">
+<div className="bearjam">
 
 ### Co-founder and Creative Lead
 
-<dl>
-<dt>
-
 #### [Bearjam Web Development](https://bearjam.dev/)
 
-<dl>
-<dt><time>Jan 2020 - Present</time></dt>
-<dt>Birmingham</dt>
-<dd>
+<time>Jan 2020 - Present</time>
+<address>Birmingham</address>
 
 - Work with local businesses to develop their brand and build an online presence
 - Design wire-frames and UI Components through an iterative process
@@ -73,22 +56,15 @@ Portfolio Example: [Nest Wellbeing](https://nestwellbeing.com)
 
 - Bearjam delivered a full design, branding and website package which supported the client's transition to online classes
 
-</dd> 
-</dl>
 </div>
-<div class="bearwood">
+<div className="bearwood">
 
 ### Digital & Marketing Volunteer
 
-<dl>
-<dt>
-
 #### [Bearwood Action For Refugees](https://actionforrefugees.org/)
 
-<dl>
-<dt><time>July 2019 - June 2020</time></dt>
-<dt>Birmingham</dt>
-<dd>
+<time>July 2019 - June 2020</time>
+<address>Birmingham</address>
 
 - Supported team with marketing strategy for 36,000 Humans campaign
 - Built new campaign website using HTML and CSS
@@ -98,40 +74,15 @@ Portfolio Example: [Nest Wellbeing](https://nestwellbeing.com)
 - Supported newly arrived filmmakers to create interactive media project
 - Led children's craft activities for newly arrived families
 
-</dd> 
-</dl>
 </div>
-<div class="previous">
-
-### Creative Practice Development & Travel
-
-<dl>
-<dt><time>Jan 2019 - June 2019</time></dt>
-<dt>India</dt>
-<dd>
-
-- Photography practice exploring public spaces, tourism, architecture and ecology
-- Produced music & dance film with local artists
-- Intro to HTML, CSS, Javascript, UX Design & Web Development
-- Helped organise and gave film workshop at [Hillhacks 2019](https://hillhacks.in/) unconference for artists, makers and hackers
-
-</dd> 
-</dl>
-</div>
-
-<div class="harmony">
+<div className="harmony">
 
 ### Visual Editor & Marketing Coordinator
 
-<dl>
-<dt>
-
 #### [Harmony](https://www.linkedin.com/company/viaharmony/)
 
-</dt>
-<dt><time>Sept 2017 - Dec 2018</time></dt>
-<dt>Barcelona</dt>
-<dd>
+<time>Sept 2017 - Dec 2018</time>
+<address>Barcelona</address>
 
 - Produced 10 videos including international events and conferences, tutorials and stop-motion animations
 - Consistently shot new product photos, documented live events and company culture
@@ -141,35 +92,26 @@ Portfolio Example: [Nest Wellbeing](https://nestwellbeing.com)
 - Created infographics, vector graphics and icons
 - Regularly helped organise meetups engaging local artists and musicians
 
-</dd>
 </div>
 
-<div class="volunteer">
+<div className="volunteer">
 
 ### Production Assistant
 
-<dl>
-<dt>
-
 #### [The Missing City Stars](https://www.themissingcitystars.com/)
 
-</dt>
-<dt><time>Oct 2016 - August 2017</dt></time>
-<dt>Barcelona</dt>
-<dd>
+<time>Oct 2016 - August 2017</time>
+<address>Barcelona</address>
 
 - Production Assistant for documentary film-making workshops with community groups in the outskirts of Barcelona
 - Produced ['Making Of' documentary](https://vimeo.com/218116691) for Baro De Viver project
 - Camera Operator for [_Isaac_](https://vimeo.com/236158121) directed by Bon Pastor community
 - On set photographer for project shoot days
 
-</dd>
-</dl>
 </div>
 </section>
-
 <section id="education">
-<div class="otoxo">
+<div className="otoxo">
 
 # Education
 
@@ -177,79 +119,22 @@ Portfolio Example: [Nest Wellbeing](https://nestwellbeing.com)
 
 #### [Otoxo Productions](https://www.otoxoproductions.com/)
 
-<dl>
-<dt>
-</dt>
-<dt><time>July 2016</dt></time>
-<dt>Barcelona</dt>
-<dd>
+<time>July 2016</time>
+<address>Barcelona</address>
 
 - Co-directed 2 short documentaries celebrating the life and work of extraordinary people in the city
 - Presented [_Gabriel_](https://www.youtube.com/watch?v=bs8PpTm_AYs) at BFI Future Film Festival 2017
 
-</dd>
-</dl>
 </div>
 
-<div class="uni">
+<div className="uni">
 
 ### BA Media and Communication (Television), 2:1
 
 #### [Birmingham City University](https://www.bcu.ac.uk/)
 
-<dl>
-<dt><time>Sept 2011 - June 2014</dt></time>
-<dt>Birmingham</dt>
-<dd>
-
-</dd>
-</dl>
-</div>
-
-</section>
-<section class="interests">
-
-## Interests
-
-- Using art and technology to make the world a better place
-- Storytelling, documenting, finding magic in ordinary places
-- Futures-thinking, regenerative design and long-termism
-- Community art, media and 'maker' projects
-- Open source software, free information, open public data
-- Grassroots environmentalism and citizen science
-- Ethical film-making & photography
-
-</section>
-<section id="bottom">
-<div class="skills">
-
-## Skills
-
-- Visual Communication
-- Digital Marketing
-- Web Design
-- Brand Development
-- Copywriting
-- Community Engagement
-- Film-making & Photography
-- Cross-disciplinary Communication
-- Event Organisation
-
-</div>
-<div class="tools">
-
-## Tools
-
-- Inkscape
-- Blender
-- Adobe Creative Suite (AI, PS, InD)
-- HTML, CSS & Javascript
-- Buffer Social Scheduler
-- Campaign Monitor
-- Wordpress CMS
-- Linux
-- Final Cut Pro
-
+<time>Sept 2011 - June 2014</time>
+<address>Birmingham</address>
 </div>
 </section>
-</main>
+</div>
