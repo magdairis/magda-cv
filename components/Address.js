@@ -24,6 +24,11 @@ export default function Address() {
             @bymagdairis
           </a>
         </li>
+        <li>
+          <a href="https://twitter.com/bymagdairis" className={css.twitter}>
+            @bymagdairis
+          </a>
+        </li>
       </ul>
     </address>
   )

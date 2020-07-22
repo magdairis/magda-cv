@@ -16,3 +16,9 @@
   transform-origin: center;
   transform: translateX(-1em) rotate(1deg) rotateY(0deg);
 }
+
+@media (min-width: 640px) {
+  .root {
+    margin-top: 2rem;
+  }
+}

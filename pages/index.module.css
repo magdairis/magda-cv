@@ -9,15 +9,27 @@
 }
 
 .work {
-  margin: 3rem 0rem;
+  margin: 0;
+  margin-top: 4rem;
 }
 
-.work > div:not(:first-of-type) {
+.education {
   margin-top: 4rem;
 }
 
 @media (min-width: 640px) {
   .statement {
-    margin-top: 2rem;
+    margin-top: 4rem;
   }
+  .work > div:not(:first-of-type) {
+    margin-top: 3rem;
+  }
+
+  /* for pdf */
+  /* .work > div:nth-of-type(n + 2) {
+    margin-top: 4.5rem;
+  }
+  .work > div:nth-of-type(n + 4) {
+    margin-top: 2rem;
+  } */
 }
