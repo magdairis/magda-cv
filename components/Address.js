@@ -4,18 +4,21 @@ export default function Address() {
   return (
     <address className={css.root}>
       <ul>
-        <li>
+        {/* <li>
           <a href="https://bearjam.dev/about" className={css.website}>
             Bio
           </a>
-        </li>
+        </li> */}
         <li>
           <a href="mailto:hello@magdairis.com" className={css.email}>
             hello@magdairis.com
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/magdairispetford/" className={css.linkedIn}>
+          <a
+            href="https://www.linkedin.com/in/magdairispetford/"
+            className={css.linkedIn}
+          >
             Magda Iris Petford
           </a>
         </li>

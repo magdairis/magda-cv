@@ -5,16 +5,25 @@ body {
 }
 
 body {
-  font-family: "Sawarabi Mincho", "Times New Roman", serif;
+  /* font-family: "Sawarabi Mincho", "Times New Roman", serif; */
+  font-family: "Inter", sans-serif;
+  line-height: 1.5rem;
 }
 
 h1,
 h2 {
-  font-family: "Spectral SC", "Times New Roman", serif;
+  /* font-family: "Spectral SC", "Times New Roman", serif; */
+  font-family: "Inter", sans-serif;
+  font-size: 4rem;
 }
 
 h3 {
   font-style: italic;
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
 }
 
 ul {
@@ -22,7 +31,7 @@ ul {
 }
 
 a {
-  color: teal;
+  color: coral;
   text-decoration: none;
   letter-spacing: 0.07em;
 }
